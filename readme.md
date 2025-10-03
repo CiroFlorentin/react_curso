@@ -89,4 +89,3 @@ Si tienes preguntas sobre el curso o quieres conectar:
 
 ⭐ **¡Gracias a DevTalles por el excelente contenido educativo!**
 
-_Última actualización: $(date)_
