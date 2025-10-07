@@ -12,22 +12,25 @@ const address = {
   country: 'USA',
 };
 
+const myStyle: CSSProperties = {
+  backgroundColor: isActive ? 'green' : 'red',
+  borderRadius: '8px',
+  padding: 10,
+};
+
 export const MyAwesomeApp = () => {
-  const myStyle: CSSProperties = {
-    backgroundColor: isActive ? 'green' : 'red',
-    borderRadius: '8px',
-    padding: 10,
-  };
+
 
   return (
-    <>
+    <div>
       <h1> {firstName} </h1>
       <h3> {lastName} </h3>
-      <p> {favoriteGames.join(' , ')}</p>
+      <p> {2 + 2} </p>
+      <p className='favoriteGames'> {favoriteGames.join(' , ')}</p>
 
       <h1>{isActive ? 'Online' : 'Offline'}</h1>
       <p style={myStyle}>{JSON.stringify(address)}</p>
-    </>
+    </div>
   );
 };
 

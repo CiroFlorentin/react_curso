@@ -1,0 +1,73 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should march snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+       
+      Fernando
+       
+    </h1>
+    <h3>
+       
+      Herrera
+       
+    </h3>
+    <p>
+       
+      4
+       
+    </p>
+    <p
+      class="favoriteGames"
+    >
+       
+      Zelda , Mario , Metroid
+    </p>
+    <h1>
+      Online
+    </h1>
+    <p
+      style="background-color: green; border-radius: 8px; padding: 10px;"
+    >
+      {"street":"123 Main St","city":"Somewhere","country":"USA"}
+    </p>
+  </div>
+</div>
+`;
+
+exports[`MyAwesomeApp > should match snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+       
+      Fernando
+       
+    </h1>
+    <h3>
+       
+      Herrera
+       
+    </h3>
+    <p>
+       
+      4
+       
+    </p>
+    <p
+      class="favoriteGames"
+    >
+       
+      Zelda , Mario , Metroid
+    </p>
+    <h1>
+      Online
+    </h1>
+    <p
+      style="background-color: green; border-radius: 8px; padding: 10px;"
+    >
+      {"street":"123 Main St","city":"Somewhere","country":"USA"}
+    </p>
+  </div>
+</div>
+`;
