@@ -96,19 +96,19 @@ h1 {
 
 .previous-searches-list li {
   padding: 5px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #575757;
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   color: #fff;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.404);
   margin-bottom: 20px;
 }
 
 .previous-searches-list li:hover {
-  background-color: #333;
+  background-color: #000000;
   transition: background-color 0.3s ease;
 }
 
