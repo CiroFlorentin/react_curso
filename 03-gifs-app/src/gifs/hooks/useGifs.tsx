@@ -18,11 +18,14 @@ export const useGifs = () => {
 
     const gifs = await getGifsByQuery(term);
     setGifs(gifs);
+    gifsCache.current[term] = gifs;
   };
 
   const handleOnSearch = async (query: string) => {
     query = query.toLocaleLowerCase().trim();
+
     if (!query) return;
+
     if (!previousTerms.includes(query)) {
       setPreviousTerms([query, ...previousTerms].slice(0, 8));
     }

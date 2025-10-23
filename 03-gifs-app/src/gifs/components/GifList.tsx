@@ -1,4 +1,4 @@
-import type { Gif } from '../interfaces/gif.interface';
+import type { Gif } from "../interfaces/gif.interface";
 
 interface MockGifs {
   gifs: Gif[];
@@ -6,9 +6,9 @@ interface MockGifs {
 
 export const GifList = ({ gifs }: MockGifs) => {
   return (
-    <div className='gifs-container'>
+    <div className="gifs-container">
       {gifs.map(({ id, title, url, width, height }: Gif) => (
-        <div key={id} className='gif-card'>
+        <div key={id} className="gif-card">
           <img src={url} alt={title} />
           <h3>{title}</h3>
           <p>
